@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Adjust the background color as needed */
+    z-index: 1000; /* Ensure it stays on top */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow for better visual separation */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.card-wrapper {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+    gap: 20px; /* Add space between the cards */
+    padding: 20px; /* Optional: Add padding around the entire card area */
+}
+
+.card-container2 {
+    flex: 1; /* Allow the containers to grow equally */
+}
+
+.card2 {
+    width: 250px; /* Adjust width as needed */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card2 img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-content2 {
+    padding: 20px;
+}
+
+.card-title2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-description2 {
+    color: #666;
+    line-height: 1.6;
+}
+
+.card-link2{
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* General card styles */
+.card-container, .card-container3 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card, .card3 {
+    background-color: white transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    height: 105%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    margin-top: 5%;
+}
+
+
+/* Card content styles */
+.card-content, .card-content3 {
+    padding: 10px;
+}
+
+.card-title, .card-title3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-description, .card-description3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.card-link, .card-link3 {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+
+
+
+
+
+
+/* animated card design*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.background-image2 {
+    background-image: url('./assets/img/minji1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.card-wrapper-animated {
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+    gap: 20px; /* Add space between the cards */
+    padding: 20px; /* Optional: Add padding around the entire card area */
+}
+
+.card2-animated {
+    width: 250px; /* Adjust width as needed */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card2-animated  img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-content2-animated {
+    padding: 20px;
+}
+
+.card-title2-animated {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-description2-animated {
+    color: #666;
+    line-height: 1.6;
+}
+
+.card-link2-animated {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.card-link2-animated:active {
+    color: #FFC107; /* Different color on active (clicked) state */
+}
+
+/* General card styles */
+.card-container-animated , .card-container3-animated  {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card-animated , .card3-animated  {
+    background-color: white transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    height: 105%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    margin-top: 5%;
+}
+.card-animated:hover,
+.card3-animated:hover {
+    background-color: white; /* Change background color on hover */
+    transform: scale(1.05); /* Optional: Add scaling effect on hover */
+}
+
+/* Card content styles */
+.card-content-animated , .card-content3-animated  {
+    padding: 10px;
+}
+
+.card-title-animated , .card-title3-animated  {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-description-animated , .card-description3-animated  {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.card-link-animated , .card-link3-animated  {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.card-link-animated:active,
+.card-link3-animated:active {
+    color: #FFC107; /* Different color on active (clicked) state */
+}
