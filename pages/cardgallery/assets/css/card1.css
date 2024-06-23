@@ -55,15 +55,34 @@ nav ul li a:active {
     color: black;
     background-color: rgba(255, 255, 255, 0.8);
 }
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.background-image {
+    background-image: url('./assets/img/minji1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
 .card-wrapper {
     display: flex;
     justify-content: center; /* Center the cards horizontally */
     gap: 20px; /* Add space between the cards */
     padding: 20px; /* Optional: Add padding around the entire card area */
-}
-
-.card-container2 {
-    flex: 1; /* Allow the containers to grow equally */
 }
 
 .card2 {
@@ -75,7 +94,7 @@ nav ul li a:active {
     transition: transform 0.3s ease;
 }
 
-.card2 img {
+.card2  img {
     width: 100%;
     height: auto;
     border-bottom: 1px solid #ddd;
@@ -96,7 +115,7 @@ nav ul li a:active {
     line-height: 1.6;
 }
 
-.card-link2{
+.card-link2 {
     display: inline-block;
     margin-top: 10px;
     color: #007bff;
@@ -104,14 +123,15 @@ nav ul li a:active {
     font-weight: bold;
 }
 
+
 /* General card styles */
-.card-container, .card-container3 {
+.card-container , .card-container3  {
     display: flex;
     justify-content: center;
     margin: 20px;
 }
 
-.card, .card3 {
+.card , .card31  {
     background-color: white transparent;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -123,35 +143,29 @@ nav ul li a:active {
     margin-top: 5%;
 }
 
-
 /* Card content styles */
-.card-content, .card-content3 {
+.card-content , .card-content3  {
     padding: 10px;
 }
 
-.card-title, .card-title3 {
+.card-title , .card-title3  {
     font-size: 24px;
     margin-bottom: 10px;
     color: #333;
 }
 
-.card-description, .card-description3 {
+.card-description , .card-description3  {
     font-size: 16px;
     margin-bottom: 20px;
     color: #666;
 }
 
-.card-link, .card-link3 {
+.card-link , .card-link3  {
     text-decoration: none;
     color: #007BFF;
     font-weight: bold;
     transition: color 0.3s;
 }
-
-
-
-
-
 
 
 

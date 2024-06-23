@@ -1,0 +1,296 @@
+
+/* Basic reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-left: 22%;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.card-display {
+    display: flex;
+    gap: 20px;
+}
+
+.card6 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    cursor: pointer;
+    border: 3px solid var(--primary);
+    box-shadow: 10px -10px 0 -3px #fff, 10px -10px #1FC11B,
+        20px -20px 0 -3px #fff, 20px -20px #FFD913,
+        30px -30px 0 -3px #fff, 30px -30px #FF9C55,
+        40px -40px 0 -3px #fff, 40px -40px #FF5555;
+}
+
+
+@keyframes shadow-wave {
+    0% {
+        border: 3px solid var(--primary);
+        box-shadow: 10px -10px 0 -3px #fff, 10px -10px #1FC11B,
+            20px -20px 0 -3px #fff, 20px -20px #FFD913,
+            30px -30px 0 -3px #fff, 30px -30px #FF9C55,
+            40px -40px 0 -3px #fff, 40px -40px #FF5555;
+    }
+    20% {
+        border: 3px solid #FF5555;
+        box-shadow: 10px -10px 0 -3px #fff, 10px -10px var(--primary),
+            20px -20px 0 -3px #fff, 20px -20px #1FC11B,
+            30px -30px 0 -3px #fff, 30px -30px #FFD913,
+            40px -40px 0 -3px #fff, 40px -40px #FF9C55;
+    }
+    40% {
+        border: 3px solid #FF9C55;
+        box-shadow: 10px -10px 0 -3px #fff, 10px -10px #FF5555,
+            20px -20px 0 -3px #fff, 20px -20px var(--primary),
+            30px -30px 0 -3px #fff, 30px -30px #1FC11B,
+            40px -40px 0 -3px #fff, 40px -40px #FFD913;
+    }
+    60% {
+        border: 3px solid #FFD913;
+        box-shadow: 10px -10px 0 -3px #fff, 10px -10px #FF9C55,
+            20px -20px 0 -3px #fff, 20px -20px #FF5555,
+            30px -30px 0 -3px #fff, 30px -30px var(--primary),
+            40px -40px 0 -3px #fff, 40px -40px #1FC11B;
+    }
+    80% {
+        border: 3px solid #1FC11B;
+        box-shadow: 10px -10px 0 -3px #fff, 10px -10px #FFD913,
+            20px -20px 0 -3px #fff, 20px -20px #FF9C55,
+            30px -30px 0 -3px #fff, 30px -30px #FF5555,
+            40px -40px 0 -3px #fff, 40px -40px var(--primary);
+    }
+    100% {
+        border: 3px solid var(--primary);
+        box-shadow: 10px -10px 0 -3px #fff, 10px -10px #1FC11B,
+            20px -20px 0 -3px #fff, 20px -20px #FFD913,
+            30px -30px 0 -3px #fff, 30px -30px #FF9C55,
+            40px -40px 0 -3px #fff, 40px -40px #FF5555;
+    }
+}
+.card6 img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card-content6 h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-content6 p {
+    font-size: 1rem;
+    color: #555;
+}
+/* Define the CSS variables used */
+:root {
+    --primary: #22D2A0;
+    --secondary: #192824;
+    --background: #192824;
+    --green: #1FC11B;
+    --yellow: #FFD913;
+    --orange: #FF9C55;
+    --red: #FF5555;
+}
+
+/*animated*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.background-image2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-left: 22%;
+}
+
+.hero-content2 {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-content2 h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.hero-content2 p {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn2{
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn2:hover {
+    background-color: #0056b3; /* Change to a darker shade of blue */
+}
+
+.card-display2 {
+    display: flex;
+    gap: 20px;
+}
+
+.card26 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    cursor: pointer;
+    border: 3px solid var(--primary);
+    box-shadow: 10px -10px 0 -3px #fff, 10px -10px #1FC11B,
+        20px -20px 0 -3px #fff, 20px -20px #FFD913,
+        30px -30px 0 -3px #fff, 30px -30px #FF9C55,
+        40px -40px 0 -3px #fff, 40px -40px #FF5555;
+}
+
+.card26:hover {
+    animation: shadow-wave 1s ease infinite;
+}
+
+@keyframes shadow-wave {
+    0% {
+        border: 3px solid var(--primary);
+        box-shadow: 10px -10px 0 -3px #fff, 10px -10px #1FC11B,
+            20px -20px 0 -3px #fff, 20px -20px #FFD913,
+            30px -30px 0 -3px #fff, 30px -30px #FF9C55,
+            40px -40px 0 -3px #fff, 40px -40px #FF5555;
+    }
+    20% {
+        border: 3px solid #FF5555;
+        box-shadow: 10px -10px 0 -3px #fff, 10px -10px var(--primary),
+            20px -20px 0 -3px #fff, 20px -20px #1FC11B,
+            30px -30px 0 -3px #fff, 30px -30px #FFD913,
+            40px -40px 0 -3px #fff, 40px -40px #FF9C55;
+    }
+    40% {
+        border: 3px solid #FF9C55;
+        box-shadow: 10px -10px 0 -3px #fff, 10px -10px #FF5555,
+            20px -20px 0 -3px #fff, 20px -20px var(--primary),
+            30px -30px 0 -3px #fff, 30px -30px #1FC11B,
+            40px -40px 0 -3px #fff, 40px -40px #FFD913;
+    }
+    60% {
+        border: 3px solid #FFD913;
+        box-shadow: 10px -10px 0 -3px #fff, 10px -10px #FF9C55,
+            20px -20px 0 -3px #fff, 20px -20px #FF5555,
+            30px -30px 0 -3px #fff, 30px -30px var(--primary),
+            40px -40px 0 -3px #fff, 40px -40px #1FC11B;
+    }
+    80% {
+        border: 3px solid #1FC11B;
+        box-shadow: 10px -10px 0 -3px #fff, 10px -10px #FFD913,
+            20px -20px 0 -3px #fff, 20px -20px #FF9C55,
+            30px -30px 0 -3px #fff, 30px -30px #FF5555,
+            40px -40px 0 -3px #fff, 40px -40px var(--primary);
+    }
+    100% {
+        border: 3px solid var(--primary);
+        box-shadow: 10px -10px 0 -3px #fff, 10px -10px #1FC11B,
+            20px -20px 0 -3px #fff, 20px -20px #FFD913,
+            30px -30px 0 -3px #fff, 30px -30px #FF9C55,
+            40px -40px 0 -3px #fff, 40px -40px #FF5555;
+    }
+}
+
+.card26 img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card-content26 h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-content26 p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Define the CSS variables used */
+:root {
+    --primary: #22D2A0;
+    --secondary: #192824;
+    --background: #192824;
+    --green: #1FC11B;
+    --yellow: #FFD913;
+    --orange: #FF9C55;
+    --red: #FF5555;
+}
